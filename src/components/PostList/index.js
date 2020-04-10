@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 
 import './styles.css';
 
-import Profile from '../../assets/profile.png';
-
+import Post from '../Post/index'
 class PostList extends Component {
   state = {
     posts: [
@@ -33,15 +32,8 @@ render(){
   return(
     <>
     <div className="post-list">
-      {this.state.posts.map(post => (
-        <div className="post-name">
-        <img src={Profile} alt=""/>
-        <div className="name-desc">
-        <strong>{ post.author.name}</strong>
-        <small>{ post.date}</small>
-        </div>
-        </div>
-      ))}
+      
+      {posts.map(post => <Post key={post.id} data={post} />)}
     </div>
     </>
   )
