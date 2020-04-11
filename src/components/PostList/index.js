@@ -21,7 +21,7 @@ class PostList extends Component {
               name: "Diego Fernandes",
               avatar: "http://url-da-imagem.com/imagem.jpg"
             },
-            content: "Conteúdo do comentário"
+            content: "A Rocketseat sempre está em busca de novos membros para o time, e geralmente ficamos de olho em quem se se destaca no bootacamp, inclusive 80% do nosso time é composto por alunos do bootcamp."
           }
         ]
       }
@@ -32,8 +32,8 @@ render(){
   return(
     <>
     <div className="post-list">
-      
-      {posts.map(post => <Post key={post.id} data={post} />)}
+  
+      {this.state.posts.map(post => <Post key={post.id} data={post}/>)}
     </div>
     </>
   )

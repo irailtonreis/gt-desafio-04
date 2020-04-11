@@ -1,0 +1,25 @@
+.user-comment {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgb(228, 226, 226);
+  max-width: 90%;
+  margin: 10px auto;
+  border-radius: 25px;
+}
+
+.user-comment small {
+  margin-left: 15px;
+}
+
+.user-comment strong {
+  display: inline-block;
+}
+
+.user-comment img {
+  border-radius: 50%;
+}
+.small-content {
+  margin-left: 15px;
+  border-radius: 5px;
+}
