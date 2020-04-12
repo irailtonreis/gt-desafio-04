@@ -23,3 +23,37 @@
   margin-left: 15px;
   border-radius: 5px;
 }
+
+.user-content{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.user-img{
+  align-self: flex-start;
+}
+
+.small-content small {
+  color: rgb(122, 121, 121);
+  font-weight: initial;
+  font-size: 0.9em;
+  line-height: 1em;
+}
+
+.small-content strong {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: rgb(46, 46, 46);
+}
+
+.content-items {
+  display: flex;
+  align-items: flex-start;
+}
+
+.perfil-content {
+  width: 94%;
+  border-bottom: 1px solid #d3d3d3;
+}

@@ -25,6 +25,8 @@
 
 .perfil-content{
   padding: 10px;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .perfil-content strong {
@@ -32,9 +34,15 @@
   font-family: inherit;
   font-weight: initial;
   font-size: 1em;
+  padding-bottom: 10px;
+  display: block;
 }
 
 .comment {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.perfil-content hr {
+  width: 80%;
 }
