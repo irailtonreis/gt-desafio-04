@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-import Profile from '../../assets/profile.png';
+import Profile from '../../assets/avatar00.jpg';
 
 function Header() {
   return(
